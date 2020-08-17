@@ -21,6 +21,7 @@ public class RandomPatrol : MonoBehaviour
     void Start()
     {   
         targetPosition = GetRandomPosition();
+        Time.timeScale = 1;
     }
 
     void Update()
@@ -48,6 +49,7 @@ public class RandomPatrol : MonoBehaviour
     {
         if (collision.tag == "Ball")
         {
+            Time.timeScale = 0;
             restartPanel.SetActive(true);
         }
     }
