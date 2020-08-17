@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class RandomPatrol : MonoBehaviour
 {
-    public const float MIN_X = -9.7f;
-    public const float MAX_X = 9.7f;
-    public const float MIN_Y = -5f;
-    public const float MAX_Y = 5f;
+    public const float MIN_X = -7.8f;
+    public const float MAX_X = 7.8f;
+    public const float MIN_Y = -3.9f;
+    public const float MAX_Y = 3.9f;
     public const float MIN_SPEED = 1f;
     public const float MAX_SPEED = 5f;
 
